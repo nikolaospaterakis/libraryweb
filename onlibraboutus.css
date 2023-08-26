@@ -1,0 +1,451 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(booksupport.jpg);
+    background-repeat: repeat-y;
+    /*background-color: skyblue;*/
+    background-size: cover;
+    font-family: serif;
+} 
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blanchedalmond;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .hdd:hover .dropbtn {
+  background-color: skyblue;
+}
+
+.hdd:hover .dropcon {
+  display: block;
+}
+
+li.hdd {
+  display: inline-block;
+}
+
+.dropcon {
+  display: none;
+  position: absolute;
+  background-color: blanchedalmond;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropcon a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropcon a:hover {background-color: skyblue;}
+
+.add{
+    background-color: royalblue;
+    
+}
+
+.pdd:hover .dropcon{
+    display: block;
+}
+
+li.pdd{
+    display: inline;
+}
+
+.cdd:hover .dropcon{
+    display: block;
+}
+
+li.cdd{
+    display: inline;
+}
+
+.sdd:hover .dropcon{
+    display: block;
+}
+
+li.sdd{
+    display: inline;
+    
+}
+.add:hover .dropcon{
+    display: block;
+}
+
+li.add{
+    display: inline;
+}
+
+li.login{
+    float: right;
+    background-color: lightpink;
+    margin-right: 15px;
+}
+
+.login:hover{
+    background-color: skyblue;
+}
+li.search{
+    float: right;
+    border: none;
+}
+
+.searchbox a:hover {
+    background-color: burlywood;
+}
+
+li.signin{
+    float: right;
+    margin-right: 10px;
+    background-color: lightpink;
+}
+
+.signin:hover{
+    background-color: skyblue;
+}
+
+li.logout{
+    float: right;
+    margin-right: 10px;
+    background-color: yellowgreen;
+}
+
+.logout:hover{
+   background-color: skyblue;
+}
+
+
+li.role{
+    float: right;
+    margin-right: 10px;
+    background-color: darkmagenta;
+}
+
+.role:hover{
+   background-color: darkorange;
+}
+
+
+.support h1{
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 750px;
+    width: 220px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 45px;
+    color: black;
+    background-color: none;
+    border-bottom: 2px solid black;
+}
+
+.rightside{
+   float: right;
+    background-color: none;
+    width: 420px;
+     border: 0px solid black;
+    margin-right: 100px;
+    padding-left: 60px;
+}
+
+table{
+    border-spacing: 40px;
+    border-collapse: inherit;
+    margin-left: 10px;
+}
+
+table caption{
+   font-size: 20px;
+    width: 400px;
+    border-bottom: 2px solid black;
+}
+
+table td{
+    text-align: center;
+    background-color: none;
+}
+
+.tutxt{
+    background-color: none;
+    width: 400px;
+    margin-left: 20px;
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.leftside{
+    float: left;
+    background-color:none;
+    width: 350px;
+    margin-left: 200px;
+    height: 400px;
+}
+
+.leftside h2{
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 25px;
+}
+
+.leftside h4{
+    margin-top: 0px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.loveya{
+    position: absolute;
+    float: center;
+    left: 38%;
+    top: 85%;
+    background-color: none;
+    width: 370px;
+    height: 60px;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 22px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+.ssb {
+    display: none;
+}
+
+.othercontent {
+    display: none;
+}
+
+
+@media screen and (max-width: 1445px) {
+   
+    .support h1 {
+        margin-left: 600px;
+    }
+    
+     
+    body {
+        background-size: 1450px;
+    }
+   
+}
+
+
+@media screen and (max-width: 1318px) {
+   
+    .support h1 {
+        margin-left: 480px;
+    }
+    
+    body {
+        background-size: 1450px;
+    }
+   
+}
+
+@media screen and (max-width: 1135px) {
+    
+    
+    .support h1 {
+        margin-left: 380px;
+    }
+    
+    .leftside {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    
+    
+    .support h1 {
+        margin-left: 280px;
+    }
+    
+    .leftside {
+        margin-left: 20px;
+    }
+    
+    .loveya {
+        left: 20%;
+    }
+}
+
+
+@media screen and (max-width: 955px) {
+    .rightside {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 886px) {
+    
+    .support h1 {
+        margin-left: 300px;
+    }
+    
+    .leftside {
+        margin-top: 20px;
+        margin-left: 250px;
+    }
+    
+    
+    .rightside {
+        display: none;
+    } 
+    
+    .loveya {
+       left: 24%;
+    }
+}
+
+
+@media screen and (max-width: 794px) {
+      li.search{
+        display: none;
+        float: right;
+        border: none;
+    }   
+
+    .searchbox a:hover {
+        display: none;
+        background-color: burlywood;
+    }
+    
+    .ssb {
+        display: block;
+        position: fixed;
+        bottom: 10%;
+        right: 0%;
+        width: 60px;
+        height: 60px;
+        background-color: black;
+        border-radius: 100px 20px 20px 100px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .ssb:hover {
+        width: 300px;
+        text-align: right;
+    }
+    
+    .ssb:hover .icon {
+        margin-right: 20px;
+    }
+    
+    .secondsearchbox {
+        display: none;
+        float: left;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+    
+    .secondsearchbox::placeholder {
+        color: red;
+    }
+    
+    .ssb:hover .secondsearchbox {
+        display: block;
+    }
+    
+    .icon {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 2px;
+    }
+    
+    .icon a:hover {
+        background-color: black;
+    }
+        
+}
+
+@media screen and (max-width: 710px) {
+
+    .support h1 {
+        margin-left: 220px;
+    }
+    
+    .leftside {
+        margin-left: 170px;
+    }
+    
+    .loveya {
+        left: 20%;
+    }
+    
+}
+
+@media screen and (max-width: 596px) {
+      li.signin{
+        display: none;
+    float: right;
+    margin-right: 10px;
+    background-color: yellowgreen;
+}
+    
+    .support h1 {
+        margin-left: 130px;
+    }
+    
+    .leftside {
+        margin-left: 80px;
+    }
+    
+    .loveya {
+        left: 11%;
+    }
+    
+    .ssb {
+        bottom: 12%;
+    }
+    
+    .othercontent {
+        position: absolute;
+        top: 70%;
+        left: 13%;
+        display: inline;
+         padding: 50px
+    }
+    
+    #cntp {
+        color: green;
+        padding: 20px;
+        background-color: black;
+        border: 0px solid ;
+    }
+    
+    #cnth {
+        color: green;
+        padding: 20px;
+        background-color: black;
+        border: 0px solid ;
+    }
+}

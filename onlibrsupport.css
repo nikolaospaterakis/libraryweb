@@ -1,0 +1,452 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(insitebooks.jpg);
+    background-size: cover;
+    font-family: serif;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: burlywood;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .hdd:hover .dropbtn {
+  background-color: skyblue;
+}
+
+.hdd:hover .dropcon {
+  display: block;
+}
+
+li.hdd {
+  display: inline-block;
+}
+
+.dropcon {
+  display: none;
+  position: absolute;
+  background-color: blanchedalmond;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropcon a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropcon a:hover {background-color: skyblue;}
+
+.sdd{
+    background-color: royalblue;
+    
+}
+
+.pdd:hover .dropcon{
+    display: block;
+}
+
+li.pdd{
+    display: inline;
+}
+
+.cdd:hover .dropcon{
+    display: block;
+}
+
+li.cdd{
+    display: inline;
+}
+
+.sdd:hover .dropcon{
+    display: block;
+}
+
+li.sdd{
+    display: inline;
+    
+}
+.add:hover .dropcon{
+    display: block;
+}
+
+li.add{
+    display: inline;
+}
+
+li.login{
+    float: right;
+    background-color: yellowgreen;
+    margin-right: 15px;
+}
+
+.login:hover{
+    background-color: skyblue;
+}
+li.search{
+    float: right;
+    border: none;
+}
+
+.searchbox a:hover {
+    background-color: burlywood;
+}
+
+li.signin{
+    float: right;
+    margin-right: 10px;
+    background-color: yellowgreen;
+}
+
+.signin:hover{
+    background-color: skyblue;
+}
+
+li.logout{
+    float: right;
+    margin-right: 10px;
+    background-color: yellowgreen;
+}
+
+.logout:hover{
+   background-color: skyblue;
+}
+
+
+li.role{
+    float: right;
+    margin-right: 10px;
+    background-color: darkmagenta;
+}
+
+.role:hover{
+   background-color: darkorange;
+}
+
+.supmsg{
+    margin-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 500px;
+    width: 705px;
+    text-align: center;
+    font-family: serif;
+    font-size: 26px;
+    color:black;
+    background-color: none;
+}
+
+.emailsupp{
+   margin-top: 20px;
+   margin-left: 770px;
+    
+}
+
+
+.emailsupp a{
+    color:darkslateblue;
+    font-size: 28px;
+}
+
+.txtemail{
+    margin-top: 380px;
+    margin-left: 380px;
+    font-size: 22px;
+}
+
+ol{
+    font-size: 26px;
+    position: absolute;
+    font-family: sans-serif;
+    margin-left: 620px;
+    margin-top: 60px;
+}
+
+.suptxt h2{
+    font-size: 45px;
+    font-family: serif;
+    position: auto;
+    margin-left: 730px;
+    margin-top: 100px;
+    border-bottom: 2px solid black;
+    width: 280px;
+}
+
+.ssb {
+    display: none;
+}
+
+@media screen and (max-width: 1490px) {
+    .supmsg {
+        margin-left: 400px;
+    }
+    
+    .txtemail {
+        margin-left: 300px;
+    }
+    
+    .suptxt h2 {
+        margin-left: 630px;
+    }
+    
+    ol {
+        margin-left: 520px;
+    }
+    
+    .emailsupp {
+        margin-left: 670px;
+    }
+}
+
+
+@media screen and (max-width: 1370px) {
+    .supmsg {
+        margin-left: 300px;
+    }
+    
+    .txtemail {
+        margin-left: 200px;
+    }
+    
+    .suptxt h2 {
+        margin-left: 530px;
+    }
+    
+    ol {
+        margin-left: 420px;
+    }
+    
+    .emailsupp {
+        margin-left: 570px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .supmsg {
+        margin-left: 200px;
+    }
+    
+    .txtemail {
+        margin-left: 100px;
+    }
+    
+    .suptxt h2 {
+        margin-left: 430px;
+    }
+    
+    ol {
+        margin-left: 320px;
+    }
+    
+    .emailsupp {
+        margin-left: 470px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .supmsg {
+        margin-left: 100px;
+    }
+    
+    .txtemail {
+        margin-left: 10px;
+    }
+    
+    .suptxt h2 {
+        margin-left: 330px;
+    }
+    
+    ol {
+        margin-left: 220px;
+    }
+    
+    .emailsupp {
+        margin-left: 370px;
+    }
+}
+
+
+@media screen and (max-width: 1060px) {
+    .supmsg {
+        margin-left: 100px;
+    }
+    
+    .txtemail {
+        margin-top: 300px;
+        margin-left: 300px;
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .suptxt h2 {
+        margin-left: 330px;
+    }
+    
+    ol {
+        margin-left: 220px;
+    }
+    
+    .emailsupp {
+        margin-left: 320px;
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (max-width: 810px) {
+    .supmsg {
+        margin-left: 0px;
+    }
+    
+    .suptxt h2 {
+        margin-left: 230px;
+    }
+    
+    ol {
+        margin-left: 120px;
+    }
+    
+    .txtemail {
+        margin-left: 200px;
+    }
+    
+    .emailsupp {
+        margin-left: 220px;
+    }
+    
+     li.search{
+        display: none;
+        float: right;
+        border: none;
+    }   
+
+    .searchbox a:hover {
+        display: none;
+        background-color: burlywood;
+    }
+    
+    .ssb {
+        display: block;
+        position: fixed;
+        bottom: 10%;
+        right: 0%;
+        width: 60px;
+        height: 60px;
+        background-color: black;
+        border-radius: 100px 20px 20px 100px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .ssb:hover {
+        width: 300px;
+        text-align: right;
+    }
+    
+    .ssb:hover .icon {
+        margin-right: 20px;
+    }
+    
+    .secondsearchbox {
+        display: none;
+        float: left;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+    
+    .secondsearchbox::placeholder {
+        color: red;
+    }
+    
+    .ssb:hover .secondsearchbox {
+        display: block;
+    }
+    
+    .icon {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 2px;
+    }
+    
+    .icon a:hover {
+        background-color: black;
+    }
+}
+
+
+
+@media screen and (max-width: 705px) {
+    .supmsg {
+        margin-left: -100px;
+    }
+    
+    .suptxt h2 {
+        margin-left: 130px;
+    }
+    
+    ol {
+        margin-left: 50px;
+        text-align: center;
+    }
+    
+    .txtemail {
+        margin-left: 100px;
+    }
+    
+    .emailsupp {
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width: 595px) {
+     li.signin{
+        display: none;
+    float: right;
+    margin-right: 10px;
+    background-color: yellowgreen;
+}
+    
+      .supmsg {
+        margin-left: -140px;
+    }
+    
+    .suptxt h2 {
+        margin-left: 90px;
+    }
+    
+    ol {
+        margin-left: 10px;
+        text-align: center;
+    }
+    
+    .txtemail {
+        margin-left: 60px;
+    }
+    
+    .emailsupp {
+        margin-left: 80px;
+    }
+    
+}

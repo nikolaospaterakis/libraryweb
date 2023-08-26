@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(insitebooks.jpg);
+    background-size: cover;
+    font-family: serif;
+}
+.yrmsg{
+    margin-top: 130px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 440px;
+    width: 705px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 22px;
+    color: black;
+    background-color: none;
+    
+}
+
+.text h2{
+        color: black;
+    font-size: 32px;
+    float: inherit;
+    text-align:left;
+    width: 493px;
+    border-bottom: 3px solid darkblue;
+    font-family:monospace;
+    margin-left: 573px;
+    margin-top: 150px;
+}
+
+
+.btn{
+    width:22%;
+    background: none;
+    border: 2px solid darkblue;
+    color: black;
+    padding: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 610px;
+   
+}
+
+.text2{
+    width: 70%;
+    overflow: hidden;
+    font-size: 32px;
+    padding: 8px;
+    margin: 8px;
+   color: black;
+    margin-left: 600px;
+   margin-top: 70px;
+}

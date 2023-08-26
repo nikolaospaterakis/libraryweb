@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(insitebooks.jpg);
+    background-size: cover;
+    font-family: serif;
+}
+.rcpmsg{
+    margin-top: 120px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 470px;
+    width: 700px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    color: black;
+    background-color: none;
+    
+}
+
+/*.startbox h3{
+    color: lightgrey;
+    font-size: 32px;
+    float: inherit;
+    text-align:center;
+    width: 300px;
+    border-bottom: 3px solid green;
+    font-family:monospace;
+    margin-left: 9px;
+} */
+
+/*.passbox h4{
+    color: lightgrey;
+    font-size: 32px;
+    float: inherit;
+    text-align:center;
+    width: 300px;
+    border-bottom: 3px solid green;
+    font-family:monospace;
+    margin-left: 9px;
+} */
+
+
+.text1{
+    color: black;
+    margin-left: 480px;
+    font-size: 25px;
+    font-family: monospace;
+    margin-top: 150px;
+}
+
+.text2{
+    color: black;
+    margin-left: 480px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.codetext{
+    width:15%;
+    background: none;
+    border: 2px solid darkblue;
+    color: black;
+    padding: 35px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 4px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 650px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.btn{
+    width:13%;
+    background: none;
+    border: 2px solid darkblue;
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 8px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    margin-left: 701px;
+}
+
+.btngob{
+    width:13%;
+    background: none;
+    border: 2px solid darkblue;
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 701px;
+}
+

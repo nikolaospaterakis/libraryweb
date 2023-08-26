@@ -1,0 +1,136 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(insitebooks.jpg);
+    background-size: cover;
+    font-family: serif;
+}
+
+.welcomemsg{
+    margin-top: 140px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 550px;
+    width: 705px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 22px;
+    color: black;
+    background-color: none;
+}
+
+.startbox{
+    background-color: none; 
+    position: absolute;
+    color: black;
+    top: 25%;
+    left: 30%;
+    font-size: 20px;
+}
+
+.startbox h2{
+    color: black;
+    font-size: 32px;
+    float: inherit;
+    text-align: left;
+    width: 100px;
+    border-bottom: 3px solid darkblue;
+    font-family: monospace;
+    margin-left: 6px;
+}
+
+.passbox{
+    width: 70%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px;
+    margin: 8px;
+    margin-top: 20px;
+    border-bottom: 2px solid darkblue;
+    
+}
+
+.passbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 15px;
+    width: 220px;
+    float: left;
+    margin: 10px;
+    padding-left: 20px;
+    
+}
+
+.passbox i{
+    width: 16px;
+    float: left;
+    margin-bottom: -33px;
+    padding-top: 10px;
+}
+
+
+#btn{
+    width:87%;
+    background: none;
+    border: 2px solid darkblue ; 
+    color: black;
+    padding: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 8px;
+    margin-bottom: 20px;
+}
+
+.or{
+    
+    color: rebeccapurple;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.su{  
+    padding-left: 10px;
+    margin-left: 0px;
+    color: rebeccapurple;
+}
+
+.visitbox{
+    margin-left: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1324px) {
+    .welcomemsg{
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .welcomemsg{
+        margin-left: 300px;
+    }
+}
+
+
+@media screen and (max-width: 990px) {
+    .welcomemsg{
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .welcomemsg{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .welcomemsg{
+        margin-left: 20px;
+    }
+}

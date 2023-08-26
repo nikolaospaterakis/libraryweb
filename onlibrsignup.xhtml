@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+    
+        <title> NNJ onLibrary-Sign Up</title>
+        
+        <link rel="stylesheet" type="text/css" href="onlibrsignup.css" media="all"/>
+        
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        
+    </head>
+    
+    
+
+<body>
+
+    
+    <!--<div class="sumsg">
+    
+    <h1> To sign up fill every blank box </h1>
+    
+    </div>-->
+    
+     <div class="subox">
+        
+    <h2> Create your account </h2>
+    
+    <form method="post" action="checksignup.php">
+        
+        <table> 
+        
+        <tr>
+            
+            <div class="csubox">
+                
+                <td> 
+                    
+                    <i class="far fa-user"></i>
+                    <input type="text" id="fname" name="fname"  placeholder="First Name" maxlength="16" required="true" /> <br/> 
+                    
+                </td> 
+            
+            </div>
+            
+            <div class="csuletters">
+                
+            <td>
+                Place your first name here. &uarr;
+            </td> 
+                
+            </div>
+        </tr>
+            
+        <tr>
+            
+            <div class="csubox">
+                
+            <td> 
+                
+                <i class="far fa-user"></i>
+                <input type="text" id="lname" name="lname"  placeholder="Last Name" maxlength="16" required="true" /> <br/>
+                
+            </td> 
+            
+            </div>
+            
+            <div class="csuletters">
+                
+            <td> 
+                Place your last name here. &uarr;
+            </td> 
+            
+             </div>
+            
+        </tr>
+            
+        <tr>
+            
+            <div class="csubox">
+                
+            <td>
+                
+                <i class="fas fa-at" aria-hidden="true"></i>
+                <input type="email" id="email" name="email"  placeholder="E-mail" required="true" /> <br/>
+                
+            </td>
+                
+            </div>
+            
+             <div class="csuletters">
+                 
+            <td> 
+                Place your email here. &uarr;
+            </td> 
+                
+            </div>
+            
+        </tr>
+            
+        <tr>
+            <div class="csubox">
+            
+                <td>
+                    
+                    <i class="far fa-user"></i>
+                    <input type="text" id="uname" name="uname"  placeholder="Username" maxlength="8" minlength="4" required="true" /> <br/>
+                
+                </td>
+                
+            </div>
+            
+            <div class="csuletters">
+                
+            <td> 
+                Username is the name you will have when you log in. &uarr;
+            </td>  
+                
+            </div>
+            
+        </tr>
+            
+        <tr>
+            <div class="csubox">
+            
+                <td> 
+                    
+                    <i class="fas fa-key"></i>
+                    <input type="password" id="upass" name="upass" placeholder="Password" maxlength="16" minlength="6" required="true" /> <br/>
+                
+                </td> 
+                
+             </div>
+            
+            <div class="csuletters">
+                
+            <td> 
+                Your password must be 6 min and 16 max long. &#10071;
+            </td> 
+                
+            </div>
+            
+        </tr>
+        
+        <div class="csuradio">
+            
+            <tr>
+            
+                <td>
+                    
+                    <select id="role" name="role" onchange="typeCode()"> 
+                    
+                        <option value="Visitor" selected="selected">Visitor</option>  
+                        <option value="Librarian">Librarian</option>
+                    
+                    </select>
+                        
+                </td>
+                
+                <div class="csuletters">
+                    
+                <td> 
+                    
+                Visitor or Librarian?(You need code for Librarian). &#10068;
+
+                    
+                </td> 
+                    
+                </div>
+            
+            </tr>
+            
+        
+        </div> <br/>
+            
+        <tr>
+            <div class="csubox" id="codebox" style="display: none;">
+                
+                <td>
+                    
+                    <i class="fas fa-shield-alt"></i>
+                    <input type="password" id="lcode" name="lcode" placeholder="Your Librarian code"/> <br/>
+                    
+                </td>
+                
+            </div>
+            
+            <div class="csuletters" id="ltxt" style="display: none;">
+                
+            <td> 
+                Fill this only if you have choose the Librarian option! &uarr;
+            </td>
+                
+            </div>
+            
+        </tr>
+            
+        
+        </table>
+        
+        <button class="subtn" id="subtn">Sign Up </button> <br/>
+        
+        <a href="onlibr.xhtml">
+            <input type="button" value="Go back" onclick="This will take you to the log in menu" class="goback" />
+        </a>
+        
+    
+    </form>
+    
+    </div>    
+    
+    <script>
+        
+        
+                    function typeCode() {
+                var x = document.getElementById("role");
+                var r = x.options[x.selectedIndex].value;
+                
+                if(r == "Librarian") {
+                    document.getElementById("codebox").style.display = "block";
+                    document.getElementById("ltxt").style.display = "block";
+                }
+                else {
+                    document.getElementById("codebox").style.display = "none";
+                    document.getElementById("ltxt").style.display = "none";
+                }
+            }
+    
+    
+    
+    </script>
+        
+    </body>
+    
+
+</html>

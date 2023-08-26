@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(insitebooks.jpg);
+    background-size: cover;
+    font-family: serif;
+}
+.conmsg{
+    margin-top: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 530px;
+    width: 705px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 28px;
+    color:black;
+    background-color: none;
+    
+}
+.conbox{
+    background-color: none; 
+    position:absolute;
+    color: black;
+    top: 40%;
+    left: 34%;
+    font-size: 10px;  
+    
+}
+
+.text1{
+    width: 70%;
+    overflow: hidden;
+    font-size: 25px;
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.text2{
+    width: 70%;
+    overflow: hidden;
+    font-size: 25px;
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.btn{
+    width:87%;
+    background: none;
+    border: 2px solid darkblue;
+    color: black;
+    padding: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 8px;
+    margin-bottom: 20px;
+}
+

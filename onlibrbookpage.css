@@ -1,0 +1,180 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(insitebooks.jpg);
+    background-size: cover;
+    font-family: serif;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: burlywood;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .hdd:hover .dropbtn {
+  background-color: skyblue;
+}
+
+.hdd:hover .dropcon {
+  display: block;
+}
+
+li.hdd {
+  display: inline-block;
+}
+
+.dropcon {
+  display: none;
+  position: absolute;
+  background-color: blanchedalmond;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropcon a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropcon a:hover {background-color: skyblue;}
+
+.cdd{
+    background-color: royalblue;
+    
+}
+
+.pdd:hover .dropcon{
+    display: block;
+}
+
+li.pdd{
+    display: inline;
+}
+
+.cdd:hover .dropcon{
+    display: block;
+}
+
+li.cdd{
+    display: inline;
+}
+
+.sdd:hover .dropcon{
+    display: block;
+}
+
+li.sdd{
+    display: inline;
+    
+}
+.add:hover .dropcon{
+    display: block;
+}
+
+li.add{
+    display: inline;
+}
+
+li.login{
+    float: right;
+    background-color: yellowgreen;
+    margin-right: 15px;
+}
+
+.login:hover{
+    background-color: skyblue;
+}
+li.search{
+    float: right;
+    border: none;
+}
+
+.searchbox a:hover {
+    background-color: burlywood;
+}
+
+li.signin{
+    float: right;
+    margin-right: 10px;
+    background-color: yellowgreen;
+}
+
+.signin:hover{
+    background-color: skyblue;
+}
+
+li.logout{
+    float: right;
+    margin-right: 10px;
+    background-color: yellowgreen;
+}
+
+.logout:hover{
+   background-color: skyblue;
+}
+
+
+li.role{
+    float: right;
+    margin-right: 10px;
+    background-color: darkmagenta;
+}
+
+.role:hover{
+   background-color: darkorange;
+}
+
+.wlcmsg {
+    position: absolute;
+    left: 40%;
+    font-size: 40px;
+}
+
+.tablerow1 {
+    margin-top: 100px;
+}
+
+table {
+    border-spacing: 180px;
+    margin-left: 0px;
+}
+
+table td{
+    border: 3px solid black;
+    width: 140px;
+    height: 200px;
+    background-color: floralwhite;
+    padding: 20px;
+}
+
+.btmpage{
+    font-size: 20px;
+    text-align: center;
+    background-color: burlywood;
+    height: 50px;
+}
+
+.btmpage a{
+    color: black;
+}

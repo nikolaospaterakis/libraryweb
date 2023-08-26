@@ -1,0 +1,127 @@
+
+   body{
+    margin: 0;
+    padding: 0;
+    background: url(insitebooks.jpg);
+    background-size: cover;
+    font-family: serif;
+}
+.rymsg{
+    margin-top: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 550px;
+    width: 705px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    color: black;
+    background-color: none;
+}
+.emailbox{
+    background-color: none; 
+    position: absolute;
+    color: black;
+    top: 28%;
+    left: 37%;
+    font-size: 25px;  
+    
+}
+.emailbox h2{
+    color: black;
+    font-size: 38px;
+    float: inherit;
+    text-align: left;
+    width: 104px;
+    border-bottom: 3px solid darkblue;
+    font-family: monospace;
+    margin-left: 9px;
+}
+.wemailbox{
+    width: 95%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px;
+    margin: 8px;
+    border-bottom: 2px solid darkblue;
+}
+.wemailbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 15px;
+    width: 240px;
+    float: left;
+    margin: 10px;
+    padding-left: 20px;
+    margin-bottom: -1px;
+}
+.wemailbox i{
+    width: 10px;
+    float: left;
+    padding-top: 10px;
+}
+.btn{
+    width:100%;
+    background: none;
+    border: 2px solid darkblue;
+    color: black;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 8px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.btngob{
+    width:100%;
+    background: none;
+    border: 2px solid darkblue;
+    color: black;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 8px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1324px) {
+    .rymsg{
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .rymsg{
+        margin-left: 300px;
+    }
+}
+
+
+@media screen and (max-width: 990px) {
+    .rymsg{
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .rymsg{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .rymsg{
+        margin-left: 20px;
+    }
+}ry
+
+
+
+
+
+
+
